@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.quickmemo.MainActivity">
+    <item
+        android:id="@+id/action_Add"
+        android:orderInCategory="100"
+        android:title="정렬"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_ViewType"
+        android:orderInCategory="100"
+        android:title="보기 형식"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Search"
+        android:orderInCategory="100"
+        android:title="검색"
+        app:showAsAction="never" />
+</menu>
